@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;   
+}
+
+body{
+
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.header{
+    height: 120px;
+    width: 100%;
+}
+
+.header img{
+    margin: 15px;
+}
+
+.menu{
+
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    
+}
+
+.menu__button{
+
+    height: 35px;
+    width: 200px;
+
+    padding-top: 10px;
+    margin: 3px;
+    margin-left: 5px;
+
+    border-radius: 5px;
+
+    background-color: #000;
+    color: white;
+    text-align: center;
+
+}
+
+.menu__button:hover{
+    background-color: white;
+    color: black;
+}
+
+.content{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content__news{
+    background-color: rgba(255, 255, 255,0.05);
+    color: white;
+    font-size: 20px;
+    height: 260px;
+    margin-top: 10px;
+    padding-right: 15px;
+    flex-basis: 100%;
+    display: flex;
+    
+}
+
+.content__news__textbox{
+    margin: 10px;
+}
+
+.content__news img{
+    margin: 10px;
+    margin-left: 15px;
+    border-radius: 15px;
+    width: 420px;
+    height: 240px;
+}
+
+.content__allexpert{
+    height: 630px;
+    width: 320px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255,0.05);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.content__allexpert img{
+    height: 480px;
+    width: 320px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+
+}
+
+.content__allexpert p{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.content__object{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.content__object__imgbox{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content__object img{
+    height: 480px;
+    width: 800px; 
+    
+}
+.content__object h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.content__task{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content__task__left{
+    width: 50%;
+    text-align: right;
+}
+
+.content__task__right{
+    width: 50%;
+    text-align: left;
+}
+
+.content__task img{
+    height: 30px;
+    width: 30px;
+}
+
+.content__task h1{
+    color: white;
+    width: 100%;
+    margin: 25px; 
+    text-align: center;
+}
+
+.content__task__ticket{
+    width: 100%;
+    margin: 15px;
+    text-align: left;
+    color: white;
+    background-color: rgba(255, 255, 255,0.05);
+}
+
+
+.content__task__ticket img{
+    height: 250px;
+    width: 200px;
+    margin: 15px; 
+    float: left;
+
+}
+
+.content form{
+    width: 500px;
+    height: 500px;
+}
+
+.content__finish{
+
+}
+
+.aboutexpert{
+
+}
+
+.footer{
+
+}
